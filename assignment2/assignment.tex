@@ -31,7 +31,7 @@ each point a score of how many lines are intersected.
     \quad\mbox{breaking further ties by putting points with lower %
       $y$-coordinates first.}
     |score| = 0 \rcomment{we first intersect nothing, obviously} \label{ass1}
-    |best| = -\infty \rcomment{Best score so far}  \label{ass2}
+    |best| = 0 \rcomment{Best score so far}  \label{ass2}
     |point| = (-\infty, -\infty)  \rcomment{Best point so far, (x,y)} \label{ass3}
     \FOREACH {point $p$ in the sorted list of endpoints} \label{forb}
       \IF $p$ \mbox{ is the left endpoint of a segment } s \label{if1}
